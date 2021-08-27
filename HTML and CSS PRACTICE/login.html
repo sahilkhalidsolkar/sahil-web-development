@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding:0px;
+            margin:0px;
+        }
+        body{
+            
+            font-family: 'Raleway', sans-serif;
+           background: rgb(218, 159, 226);
+           text-decoration: none;
+        }
+        .container{
+            padding:10px;
+            max-width:450px;
+            margin:10px auto;
+            background: aliceblue;
+            border-radius:5px
+        }
+        .heading,.text{
+            text-align: center;
+        }
+        #email{
+            display: block;
+        }
+        .form-group{
+            width:100%;
+            margin:10px 0px;
+            border:2px solid pink;
+            height:30px;
+            border-radius:5px;
+            
+            
+        }
+        .form-control{
+            margin:0px 30px;
+        }
+        .btn-control{
+            /* display:inline-block; */
+            
+        }
+        .btn{
+            display:block;
+            width:60%;
+            border:none;
+            font-size:16px;
+            background: rgb(206, 99, 233);
+            border-radius:7px;
+            padding:6px;
+            margin:0px auto;
+        }
+        .policy{
+            margin:10px;
+            text-align:center;
+            
+        }
+        .policy a{
+            text-decoration: none;
+            color:blue
+            
+        }
+        .confirm{
+            max-width:450px;
+            margin:10px auto;
+            text-align: center;
+        }
+        .confirm a{
+            color:blue;
+            text-decoration: none;
+        }
+        .form-control .form-group:focus{
+            outline:none;
+            border-color:rgb(192, 54, 204);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="heading">Signup</h2>
+        <p class="text">It's free and doesnt take much time</p>
+        <div class="form-control">
+            <label for="email">Email</label>
+            <input type="text" id='email' class='form-group' >
+
+        </div>
+        <div class="form-control">
+            <label for="password">Password</label>
+            <input type="text" id='password' class='form-group'>
+
+        </div>
+        <div class="form-control">
+            <label for="address">Address</label>
+            <input type="text" id='address' class='form-group'>
+
+        </div>
+        <div class="form-control">
+            <label for="phone">Phone No.</label>
+            <input type="text" id='phone' class='form-group'>
+
+        </div>
+        <div class="btn-control">
+            <input type="button" value="submit" class="btn">
+
+        </div>
+        <div class="policy">
+            By clicking signup you aggree to  our <a href="#"> Terms and conditioons </a> and
+            <a href="#"> private policy </a>
+        </div>
+       
+    </div>
+    <div class="confirm">
+        Already have an account ?  <a href="#">Login here..</a>
+    </div>
+    
+</body>
+</html>

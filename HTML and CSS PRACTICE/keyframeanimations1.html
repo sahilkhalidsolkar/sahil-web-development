@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+        }
+        body{
+            background-color: aquamarine;
+        }
+        .box{
+            position: relative;
+            top:0;
+            left:0;
+            background: black;
+            height:4rem;
+            width:4rem;
+            animation:animate1;
+            animation-duration: 5s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 0.5s;
+            /* animation-fill-mode: forwards; */
+            /* animation-direction: alternate-reverse; */
+            
+        }
+
+        @keyframes animate1 {
+            25%{
+                top:0;
+                left:30rem;
+                background: cadetblue;
+                border-radius:50% 0 0 0;
+
+            }
+            50%{
+                top:30rem;
+                left:30rem;
+                background: rgb(207, 56, 221);
+                border-radius:50% 50% 0 0;
+            }
+            75%{
+                top:30rem;
+                left:0rem;
+                background: rgb(216, 153, 37);
+                border-radius:50% 50% 0 50%;
+            }
+            100%{
+                top:0;
+                left:0;
+                background: rgb(4, 15, 66);
+                border-radius:50% 50% 50% 50%;
+            }
+          
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    
+</body>
+</html>

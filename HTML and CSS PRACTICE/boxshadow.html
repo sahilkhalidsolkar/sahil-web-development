@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:flex;
+        }
+        .box{
+            padding:0.5rem;
+            margin:1rem;
+            background-color: aquamarine;
+            /* offset-x|offset-y|color */
+            box-shadow:10px 10px rgb(90, 233, 238);
+            /* offset-x|offset-y|blur-radius|color */
+            box-shadow: -10px -10px 7px rgb(90, 233, 238);
+            /* offset-x|offset-y|blur-radius|spread-radius|color */
+            box-shadow:-10px 10px 7px rgb(90, 233, 238),10px -10px 7px rgb(90, 233, 238);
+            /* box-shadow:inset -10px 7px 1px rgb(50, 28, 248,0.5); */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h3>heading</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur  quibusdam asperiores laboriosam!</p>
+        </div>
+        <div class="box">
+            <h3>heading</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur quibusdam asperiores laboriosam!</p>
+        </div>
+        <div class="box">
+            <h3>heading</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur quibusdam asperiores laboriosam!</p>
+        </div>
+    </div>
+    
+</body>
+</html>

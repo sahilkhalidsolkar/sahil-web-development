@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css transition😍</title>
+    <style>
+        body{
+            background:grey;
+            display:flex;
+            align-items:center;
+            justify-content: center;
+            height:100vh;
+
+        }
+        .box{
+            background: chocolate;
+            width:100px;
+            height:100px;
+            border-radius:50%;
+            /* transition-property:background,border-radius ;
+            transition-duration:1s; 
+            transition-delay:2s; */
+            transition:all 1s ease-in-out;
+        }
+        .box:hover{
+            background: rgb(238, 193, 14);
+            border-radius:19%;
+            width:500px;
+            height:500px;
+        }
+    </style>
+    
+</head>
+<body>
+   <div class="box"></div>
+    
+</body>
+</html>

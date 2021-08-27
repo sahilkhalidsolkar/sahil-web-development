@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding:0;
+    margin:0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height:10000px;
+    font-family: 'Roboto', sans-serif;
+    line-height:1.5rem;
+}
+a{
+    text-decoration: none;
+}
+/* utility classes */
+.container{
+    max-width: 1000px;
+    margin:auto;
+}
+.text-center{
+    text-align: center;
+}
+
+.py-1{ padding:1rem 0.5rem; }
+.py-2{ padding:2rem 1rem; }
+.py-3{ padding:3rem 1.5rem; }
+
+.my-1{margin:1rem 0rem; }
+.my-2{margin:2rem 0rem; }
+.my-3{margin:3rem 0rem; }
+
+
+
+/* navagation bar  */
+#navbar{
+    display:flex;
+    background:#333;
+    top:0;
+    position:sticky;
+    color:white;
+    justify-content:space-between;
+    align-items: center;
+    padding:1rem;
+    border-radius: 5px;
+}
+.text-primary{
+    color:rgb(154, 245, 19);
+}
+#navbar .links{
+    display:flex;
+    list-style: none;
+    
+}
+#navbar .links a{
+    color:white;
+    padding:0.5rem;
+    margin:0px 0.7rem;
+}
+#navbar .links  li a:hover{
+background: rgb(154, 245, 19);
+border-radius:5px;
+}
+/* showcase */
+.showcase{
+   background:url('../image_resources/showcase.jpg') no-repeat center center/cover;
+   height:100vh;
+   color:white;
+}
+.showcase-contents{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+   /* position:absolute; */
+    height:100%;
+    text-align: center;
+    background: rgba(0,0,0,0.3);
+    
+}
+.showcase-contents a{
+    text-decoration: none;
+    
+}
+
+.l-heading{
+    font-size:3rem;
+    margin-bottom: 1rem;
+    line-height: 3.5rem;
+}
+.lead{
+    font-size:1.3rem;
+    margin:0rem 0.8rem 1rem 1rem;
+}
+.showcase-contents .btn{
+    display:inline-block;
+    color:white;
+    background: rgb(154, 245, 19);
+    padding:0.3rem 0.5rem;
+    margin:1rem;
+    border-radius: 0.45rem;
+     
+}
+/* what we do  */
+.icons{
+    display:flex;
+    
+    justify-content: space-around;
+    
+}
+.what-contents {
+    text-align:center;
+}
+.icons-items span{
+  background:rgb(154, 245, 19);
+  padding:1.5rem;
+  border-radius: 50%;
+}
+.icons-items{
+    margin:  0.5rem;
+}
+.icons-items h3{
+    margin-bottom: 0.5rem;
+    
+}
+.image{
+    width:50%;
+    
+}
+.bold{
+    font-weight: bold;
+}
+.team{
+    list-style: none;
+    padding:0.5rem;
+    border-bottom: 1px solid rgb(85, 80, 80);
+}
+#who{
+    display:flex;
+    background:#333;
+}
+#who div{
+    flex:1;
+}
+#who .who-img{
+    background:url('../image_resources/people.jpg') no-repeat center center/cover;
+}
+/* .who-text h1 span{
+    margin-bottom: 18rem;
+} */
+.who-text{
+    color:white;
+
+}
+#who .who-text ul .team:nth-child(5){
+    border-bottom: none;
+}
+.cl-heading{
+    font-weight:bold;
+    text-align: center;
+}
+.cl-logos{
+    display: flex;
+    justify-content: center;
+}
+
+.cl-logos .logo{
+  display:block;
+  width:60%;
+  margin:auto;  
+    
+    
+    
+}
+
+

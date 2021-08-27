@@ -1,0 +1,14 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+
+}
+.background{
+    background-image:linear-gradient(rgb(196, 130, 235),rgb(151, 59, 124)) ;
+    height:100vh;
+}
+.heading{
+    padding:5px 10%;
+    text-align: center;
+}
